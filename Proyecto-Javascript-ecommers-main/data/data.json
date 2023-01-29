@@ -1,0 +1,30 @@
+[
+    {
+       "id":0,
+       "image":"img/patagonia247.jpeg",
+       "title":"Patagonia 24/7",
+       "price":120,
+       "cantidad":1
+    },
+    {
+       "id":1,
+       "image":"img/patagoniaAmber.jpeg",
+       "title":"Patagonia Amber",
+       "price":120,
+       "cantidad":1
+    },
+    {
+       "id":2,
+       "image":"img/patagoniaHoppy.jpeg",
+       "title":"Patagonia Hoppy",
+       "price":120,
+       "cantidad":1
+    },
+    {
+       "id":3,
+       "image":"img/patagoniaKune.jpeg",
+       "title":"Patagonia Kune",
+       "price":120,
+       "cantidad":1
+    }
+ ]

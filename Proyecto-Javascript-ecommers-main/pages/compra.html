@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
+    <title>PataFTE</title>
+</head>
+<body>
+    <main>
+        <div class="contenedor-pago" id="contenedorPago">
+            <div class="form-title">
+                <h2>CONFIRME SU COMPRA</h2>
+            </div>
+
+            <form>
+                <div class="form-group owner">
+                    <label for="owner">NOMBRE</label>
+                    <input type="text" id="owner">
+                </div>
+                <div class="form-group CVV">
+                    <label for="cvv">CVV</label>
+                    <input type="text"  id="cvv">
+                </div>
+                <div class="form-group" id="card-number-field">
+                    <label for="cardNumber">N° DE TARJETA</label>
+                    <input type="text"  id="cardNumber">
+                </div>
+
+            </form>
+            <div class="form-end" id="payNow">
+                
+                <button type="submit" class="btn btn-default" id="confirmCompra">Comprar</button>
+            </div>
+        </div>
+    </main>
+
+    <script src="../js/index.js"></script>
+    <script src="../js/carro.js"></script>
+    <script src="../js/compra.js"></script>
+    <!-- libreria  -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.7.0/dist/sweetalert2.all.min.js"></script>
+</body>
+
+</html>
